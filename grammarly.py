@@ -17,13 +17,13 @@ tokens=word_tokenize(sample)
 spell=SpellChecker()
 misspelled = spell.unknown(tokens)
 
-cor = [spell.correction(word) if word in misspelled and spell.correction(word) is not None else word for word in tokens]
-print(cor)
+corr = [spell.correction(word) if word in misspelled and spell.correction(word) is not None else word for word in tokens]
+print(corr)
 # pos_tags = pos_tag(cor)
 # print("\nPOS Tags:")
 # for token, pos in pos_tags:
 #     print(f"{token}: {pos}")
-corrected_text = ' '.join(cor)
+corrected_text = ' '.join(corr)
 nlp=spacy.load("en_core_web_sm")
 doc=nlp(corrected_text)
 def apply_grammar_rules(doc):
