@@ -63,5 +63,5 @@ def model(text):
 
 reordered_sentence = apply_grammar_rules(doc)
 print("\nReordered Sentence:", reordered_sentence)
-f_sentence=model(reordered_sentence)
-print("\nFinal Sentence:", f_sentence)
+final_sentence=model(reordered_sentence)
+print("\nFinal Sentence:", final_sentence)
