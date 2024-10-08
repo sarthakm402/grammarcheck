@@ -95,7 +95,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk import pos_tag
 import re
 import google.generativeai as genai
-genai.configure(api_key='AIzaSyBDopiFyq_IpE6WT3vaHoV6cV8pByUUHIg')
+genai.configure(api_key='API_KEY')
 model = genai.GenerativeModel(model_name="gemini-1.0-pro")
 sample=" helko I is Sarthak  and aditya he is my frend."
 sample = sample.lower()
