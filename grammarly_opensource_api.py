@@ -12,7 +12,7 @@ sample=" we is Sarthak ."
 #### SENTENCE CORRECTION WITH OPEN SOURCE SOFTWARE and Library####
 
 sample = sample.lower()
-sample=re.sub(r'[^a-z0-9\s]', '', sample)
+sample=re.sub(r'[^a-z0-9\s]','', sample)
 print(sample)
 tokens=word_tokenize(sample)
 # spell=SpellChecker()
