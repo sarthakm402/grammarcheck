@@ -9,7 +9,7 @@ import spacy
 from transformers import pipeline
 from symspellpy.symspellpy import SymSpell, Verbosity
 sample=" we is Sarthak ."
-#### SENTENCE CORRECTION WITH OPEN SOURCE SOFTWARE and Library####
+#### SENTENCE CORRECTION WITH OPEN SOURCE SOFTWARE and Library like Spellchecker####
 
 sample = sample.lower()
 sample=re.sub(r'[^a-z0-9\s]','', sample)
