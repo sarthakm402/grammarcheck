@@ -33,7 +33,7 @@ Simply pass your input text to the grammar_correction_open_source() function, an
 
 - Free to use
 - Customizable	
-- Easy to modify and tweak
+- Easy to modify and tweak.
 Cons:
 - May struggle with very complex sentences
 - Limited to trained dataset capabilities
