@@ -5,7 +5,7 @@
 This repository contains a GrammarCheck Model that performs grammar correction using two different methods:
 
 Open Source Model: A grammar correction system built using a publicly available model and library.
-Gemini API: A grammar correction system utilizing Gemini’s advanced API for NLP tasks.
+Gemini API: A grammar correction system utilizing Gemini’s advanced API for NLP tasks. 
 Both methods are implemented to provide grammar correction, with the flexibility to choose between free, open-source tools and the advanced capabilities of the Gemini API.
 
 ## Features
