@@ -103,6 +103,6 @@ sample=re.sub(r'[^a-z0-9\s]', '', sample)
 print(sample)
 tokens=word_tokenize(sample)   
 sent=' '.join(tokens)
-full_prompt = f"Correct the following sentence: '{sent}'."
+full_prompt = f"Correct the sentence: '{sent}'."
 final=model.generate_content(full_prompt)
 print(final.text)
