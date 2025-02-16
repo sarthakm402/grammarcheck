@@ -23,7 +23,7 @@ tokens=word_tokenize(sample)
 sym_spell = SymSpell(max_dictionary_edit_distance=2)
 sym_spell.load_dictionary(r"frequency_bigramdictionary_en_243_342.txt", term_index=0, count_index=1)
 
-
+ 
 custom_words = ["sarthak", "aditya"]
 
 # Correct spelling using SymSpell
